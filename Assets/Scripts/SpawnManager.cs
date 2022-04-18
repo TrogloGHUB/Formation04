@@ -5,9 +5,9 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    private float spawnRange = 9;
-    public int enemyCount;
-    public int waveNumber = 1;
+    private float spawnRange = 9; // distance maximale -/+ pour la génération des bonus
+    public int enemyCount; // quantité d'ennemis présents
+    public int waveNumber = 1;  // numéro de le vague d'ennemis qui correspond au nombre d'ennemis à générer d'un coup
     public GameObject powerupPrefab;
 
     // Start is called before the first frame update
